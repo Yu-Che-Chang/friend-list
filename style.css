@@ -1,0 +1,58 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+/* card-style */
+
+
+.card:hover {
+  background-color: #EEEEEE;
+}
+
+.avatar-like {
+  font-size: 25px;
+  margin-right: 13px;
+  margin-top: 5px;
+  color: #2f3542;
+}
+
+.avatar-like:hover {
+  color: #747d8c;
+  scale: 1.05;
+}
+
+.avatar-like:active {
+  scale: 1.25;
+  transition-duration: 0.05s;
+  transition-timing-function: ease;
+}
+
+.fa-solid {
+  color: #ff4757;
+}
+
+.fa-regular {
+  color: #2f3542;
+}
+
+.male {
+  color: #1D1CE5;
+}
+
+.female {
+  color: #C21010;
+}
+
+/* modal-style */
+
+.modal-info p {
+  margin: 0;
+}
+.modal-detail p {
+  margin: 0;
+}
